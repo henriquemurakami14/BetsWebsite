@@ -1,21 +1,29 @@
-
-
-
 <?php 
     $regras = [
-        "MEGA" => ["min" => 6, "max" => 15, "universo" => 60],
+        "MEGA" => ["min" => 6, "max" => 15, "universo" => 60    ],
         "QUINA" => ["min" => 5, "max" => 15, "universo" => 80],
         "LOTOMANIA" => ["min" => 50, "max" => 50, "universo" => 100],
         "LOTOFACIL" => ["min" => 15, "max" => 20, "universo" => 25]
     ];
 
+    $valores = [
+        "MEGA" => ["6" => 5, "7" => 35, "8" => 140, "9" => 420, "10" => 2310, "11" => 2310, "12" => 4620, "13" => 8580,
+        "14" => 15015, "15" => 25025],
+        "QUINA" => ["5" => 2.5, "6" => 15, "7" => 52.5, "8" => 140, "9" => 315, "10" => 630, "11" => 1155, "12" => 1980, "13" => 3217.5, "14" => 5005, "15" => 7507.5],
+        "LOTOMANIA" => ["50" => 2.5],
+        "LOTOFACIL" => ["15" => 2.5, "16" => 40, "17" => 340, "18" => 2040, "19" => 9690, "20" => 38760]
+    ];
+
     $jogo =  $_REQUEST["tipo_jogo"];
     $numero_jogados = $_REQUEST["numeros_jogados"];
+
+
 
     valida_numeros($jogo, $numero_jogados, $regras);
     
     $numeros_sorteados = sorteio($jogo, $numero_jogados, $regras);
 
+    
 
     function valida_numeros($jogo, $numeros, $regras){
     if ("MEGA" == $jogo) {

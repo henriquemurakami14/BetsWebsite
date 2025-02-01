@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Bem Vindos a LOTOMANIA-WIN!</h1><hr>
+        <h1>Bem Vindos a LOTOMANIA-WIN</h1><hr>
         
         <?php
             sleep(1);

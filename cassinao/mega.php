@@ -23,7 +23,6 @@
                 <label for="idJogo">Quantidade de números da aposta:</label>
                 <input type="num" name="numeros_jogados" id="idJogo">
                 <input type="submit" value="Gerar">
-                
             </form>
         </section>
     </header>

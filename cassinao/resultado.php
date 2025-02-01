@@ -24,9 +24,16 @@
                 print(" - " . $numeros_sorteados[$i]);
             }
         }
+
+        
         ?>
 
+        <p>Valor da aposta: <strong>R$<?php echo number_format($valores[$jogo][$numero_jogados], 2, ',', '.'); ?></strong></p>
+
+
+
         <p><a href="http://localhost/aulaphp/cassinao/index.php">Clique para realizar outra aposta!</a></p>
+        
     </div>
 </body>
 
