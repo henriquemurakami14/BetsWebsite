@@ -16,12 +16,15 @@
 
     $jogo =  $_REQUEST["tipo_jogo"];
     $numero_jogados = $_REQUEST["numeros_jogados"];
-
-
+    $quantidades_apostas = $_REQUEST["quantidade_jogos"];
+    $numero_jogos = 0;
 
     valida_numeros($jogo, $numero_jogados, $regras);
     
-    $numeros_sorteados = sorteio($jogo, $numero_jogados, $regras);
+    for ($i=0; $i < $quantidades_apostas; $i++) { 
+        $numeros_sorteados[$numero_jogos] = sorteio($jogo, $numero_jogados, $regras, $numero_jogos);
+        $numero_jogos += 1;
+    }      
 
     
 
@@ -50,7 +53,7 @@
     }
 
     function sorteio($jogo, $numeros, $regras){
-        $numeros_sorteados = [];
+        $numeros_sorteados= [];
         $c = 0; 
         
         for ($n = 0; $n < $numeros; $n++) {  
@@ -88,4 +91,3 @@
     }
 
     require "resultado.php";
-

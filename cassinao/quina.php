@@ -22,6 +22,9 @@
                 <input type="hidden" name="tipo_jogo" value="QUINA">
                 <label for="idJogo">Quantidade de números da aposta:</label>
                 <input type="num" name="numeros_jogados" id="idJogo">
+                <label for="rangeInput">Quantos jogos você deseja fazer:</label>
+                <input type="range" id="rangeInput" min="1" max="10" step="1" value="1" oninput="output.value = rangeInput.value">
+                <output id="output">1</output>
                 <input type="submit" value="Gerar">
                 
             </form>
