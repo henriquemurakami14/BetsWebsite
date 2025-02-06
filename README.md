@@ -1,1 +1,1 @@
-Site de geração de números para apostas desenvolvido com HTML, CSS e PHP. Permite personalizar a quantidade de números e jogos, além de calcular o valor total das apostas. Inclui validação de dados e design responsivo para uma navegação fácil e intuitiva.
+A betting number generator website developed with HTML, CSS, and PHP. It allows users to customize the number of draws and games, while automatically calculating the total bet amount. Includes data validation and a responsive design for easy and intuitive navigation.
