@@ -1,2 +1,1 @@
-# trabalho-web
-Trabalho Escolar do 1° de Técnico de Desenvolvimento de Sistemas. Com base em um site de apostas na web, "surpresinha"!!
+Site de geração de números para apostas desenvolvido com HTML, CSS e PHP. Permite personalizar a quantidade de números e jogos, além de calcular o valor total das apostas. Inclui validação de dados e design responsivo para uma navegação fácil e intuitiva.
