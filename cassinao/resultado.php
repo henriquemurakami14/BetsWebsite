@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resultado</title>
 
     <link rel="stylesheet" href="style.css">
 
@@ -12,8 +12,10 @@
 
 <body>
     <div class="caixa-centralizada">
-
-        <h1 class="titulo" id="titulo-principal">Aqui estão suas apostas!!</h1>
+        <h1 class="titulo-principal" id="titulo-principal">Aqui estão suas apostas!!</h1>
+        </div>
+        <hr>
+        <div class="caixa-centralizada">
 
         <?php
 
@@ -37,7 +39,7 @@
 
 
 
-        <p><a href="http://localhost/aulaphp/cassinao/index.php">Clique para realizar outra aposta!</a></p>
+        <p><a id="botao-resultado" href="http://localhost/cassinao/index.php">Clique para realizar outra aposta!</a></p>
         
     </div>
 </body>
