@@ -25,6 +25,9 @@ h1.titulo-principal {
 
     width: 800px;
     margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
 
 }
 
@@ -36,20 +39,73 @@ h1.titulo-principal {
 .links {
     font-size: 20px;
     color: greenyellow;
+    text-decoration: none;
 }
+
 a {
     text-decoration: none; /* Remove o sublinhado do link */
 }
 
-.links {
-    text-decoration: none; /* Garante que o span também não tenha sublinhado */
-}
-
 .palavra-chave {
-    color: yellow;
+    color: #FFE31A;
 }
 
-.caixa-imagens {
+.caixa-maior {
     width: 1200px;
     margin: 0 auto;
+}
+
+.erro {
+    font-size: 20px;
+    color: lightcoral;
+}
+
+.botao{
+    display: inline-block;
+    border: solid 1px #FFE31A;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    height: 20px;
+    color: black;
+    text-align: center;
+    line-height: 20px;
+    background-color: #FFE31A;
+    transition: all 0.5s ease;
+
+    
+}
+
+.botao:hover{
+    background-color: #F3C623;
+    color: black;
+    transform: scale(1.2)
+}
+
+.gerar {
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    color:black;
+}
+
+#botao-resultado {
+    display: inline-block;
+    border: solid 1px #FFE31A;
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    line-height: 20px;
+    background-color: #FFE31A;
+    transition: all 0.5s ease;
+}
+
+#botao-resultado:hover {
+    background-color: #F3C623;
+    color: black;
+    transform: scale(1.2)
 }
