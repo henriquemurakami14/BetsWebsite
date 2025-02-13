@@ -13,7 +13,7 @@ body {
 h1.titulo-principal {
     font-size: 45px;
     color: white;
-    
+
 }
 
 .titulo {
@@ -33,7 +33,7 @@ h1.titulo-principal {
 
 .texto {
     font-size: 25px;
-    color:white;
+    color: white;
 }
 
 .links {
@@ -43,7 +43,8 @@ h1.titulo-principal {
 }
 
 a {
-    text-decoration: none; /* Remove o sublinhado do link */
+    text-decoration: none;
+    /* Remove o sublinhado do link */
 }
 
 .palavra-chave {
@@ -60,7 +61,7 @@ a {
     color: lightcoral;
 }
 
-.botao{
+.botao {
     display: inline-block;
     border: solid 1px #FFE31A;
     border-radius: 20px;
@@ -73,10 +74,10 @@ a {
     background-color: #FFE31A;
     transition: all 0.5s ease;
 
-    
+
 }
 
-.botao:hover{
+.botao:hover {
     background-color: #F3C623;
     color: black;
     transform: scale(1.2)
@@ -89,7 +90,7 @@ a {
     width: 100px;
     height: 35px;
     background-color: white;
-    color:black;
+    color: black;
 }
 
 #botao-resultado {
